@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Implementations">
+      <UniqueIdentifier>{92afa20d-74e5-439d-a975-437faec37bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Implementations">
+      <UniqueIdentifier>{84412224-584a-4bff-a5ba-01e30fad2e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Helpers">
+      <UniqueIdentifier>{33685f56-34d9-4352-a4ec-19ed6d4bde31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Types">
+      <UniqueIdentifier>{6b22d291-b868-4e33-bfaf-90557ddd8556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Implementations\Dynamic">
+      <UniqueIdentifier>{bf0a05c4-54b7-46ea-8468-c8ba5cc24069}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SolveTSP.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ParseTSP.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cmdline.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CM.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CM-CFX.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CPU.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\CPU.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\SSE2.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\SSE2-ConcRT.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\SSE2-ConcRT-CM.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\double.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\float.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\uchar.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\ulong.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\ushort.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ParseTSP.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SolveTSP.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implementations\AMP.h">
+      <Filter>Headerdateien\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implementations\SSE2.h">
+      <Filter>Headerdateien\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\helpers\Distances.h">
+      <Filter>Headerdateien\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\helpers\SBM.h">
+      <Filter>Headerdateien\Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\implementations\OpenCL-Helper.cl">
+      <Filter>Quelldateien\Implementations\Dynamic</Filter>
+    </None>
+    <None Include="..\..\implementations\DirectCompute.hlsl">
+      <Filter>Quelldateien\Implementations\Dynamic</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Implementations">
+      <UniqueIdentifier>{4efd09d0-e1ea-4171-9943-de0d0dbcd288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Implementations">
+      <UniqueIdentifier>{a1e54fdd-b0c9-49c0-93d8-360326bc30e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Types">
+      <UniqueIdentifier>{28cd395a-42ec-4ee8-934c-d7496abbf2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Helpers">
+      <UniqueIdentifier>{a2149b2c-867c-45d3-a2d1-8d445f4b0a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Helpers">
+      <UniqueIdentifier>{8677f6e3-b053-4b28-b212-96b2ae5570ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Implementations\Solver">
+      <UniqueIdentifier>{6e4b0e8f-1dc5-49fd-908d-58248a8de949}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SolveTSP.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ParseTSP.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cmdline.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CPU.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\CPU.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\SSE2-ConcRT-CM.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\SSE2-ConcRT.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\SSE2.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\double.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\float.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\uchar.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\ulong.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\ushort.cpp">
+      <Filter>Quelldateien\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CM.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CM-Opt.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CM-OptCFX.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\helpers\Profile.cpp">
+      <Filter>Quelldateien\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CM-OptMax.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CMP.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\solver\ConcRT.cpp">
+      <Filter>Quelldateien\Implementations\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\solver\ConcRT-Priorized.cpp">
+      <Filter>Quelldateien\Implementations\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\solver\Plain.cpp">
+      <Filter>Quelldateien\Implementations\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\solver\Batched-Priorized.cpp">
+      <Filter>Quelldateien\Implementations\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\solver\ConcRT-Templated.cpp">
+      <Filter>Quelldateien\Implementations\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\solver\Plain-Templated.cpp">
+      <Filter>Quelldateien\Implementations\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CMP-OptCFX.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CMP-OptMax.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implementations\AMP-CMP-Opt.cpp">
+      <Filter>Quelldateien\Implementations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ParseTSP.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SolveTSP.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implementations\AMP.h">
+      <Filter>Headerdateien\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implementations\SSE2.h">
+      <Filter>Headerdateien\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\helpers\Distances.h">
+      <Filter>Headerdateien\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\helpers\SBM.h">
+      <Filter>Headerdateien\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implementations\AMP-CM-Opt.h">
+      <Filter>Headerdateien\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\helpers\Maths.h">
+      <Filter>Headerdateien\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\helpers\Profile.h">
+      <Filter>Headerdateien\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implementations\AMP-CM-OptMax.h">
+      <Filter>Headerdateien\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implementations\AMP-CMP-OptMax.h">
+      <Filter>Headerdateien\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implementations\AMP-CMP-Opt.h">
+      <Filter>Headerdateien\Implementations</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
